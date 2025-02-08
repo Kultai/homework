@@ -1,0 +1,474 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background: white;
+  padding: 15px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+header h1 {
+  font-weight: 100;
+  letter-spacing: 6px;
+  margin-top: 10px;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+header li {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.sos {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sos img {
+  width: 35px;
+  height: 35px;
+  padding: 5px;
+}
+
+.mean img {
+  width: 100%;
+  height: auto;
+}
+
+.about-section {
+  display: flex;
+  align-items: center;
+  padding: 100px 50px;
+}
+
+.about-section img {
+  width: 500px;
+  height: auto;
+  margin-right: 50px;
+}
+
+.about-sec {
+  max-width: 600px;
+  margin-left: 150px;
+}
+
+.about-sec h1 {
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.about-sec p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+section {
+  position: relative;
+  text-align: left;
+  padding: 80px;
+  height: 1000px;
+  background-image: url("./image copy 3.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  color: white;
+}
+
+.pap {
+  font-size: 60px;
+  margin-top: 200px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.sap {
+  margin-top: 50px;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+.section2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px;
+}
+
+.text-content {
+  width: 50%;
+  padding-top: 20px;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+.step {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  background-color: #d3d3d3;
+  border-radius: 50%;
+  margin-right: 15px;
+  margin-top: 2px;
+}
+
+.step-text h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.step-text p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.5;
+}
+
+.image-content {
+  width: 50%;
+}
+
+.image-content img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.bike {
+  width: 570px;
+  height: 680px;
+  background-color: #ebedee;
+  margin-left: 80px;
+  position: relative;
+}
+.bike img {
+  width: 100%;
+}
+
+.bike p {
+  top: 30px;
+  font-size: 20px;
+  padding-top: 40px;
+  padding-left: 30px;
+}
+.cost {
+  color: #484b4a;
+  margin-left: 80px;
+}
+.name {
+  font-size: 35px;
+}
+
+.how {
+  font-size: 10px;
+  margin-bottom: 50px;
+}
+
+.two-bike {
+  display: flex;
+}
+.fors input {
+  width: 60%;
+  height: 40px;
+  margin-left: 300px;
+}
+button {
+  width: 100%;
+  max-width: 900px;
+  padding: 12px;
+  background-color: #888;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-left: 300px;
+}
+
+button:hover {
+  background-color: #666;
+}
+.quis {
+  margin-left: 300px;
+  margin-top: 50px;
+}
+.quis h1 {
+  font-size: 130px;
+  font-weight: 300;
+}
+.quis hr {
+  width: 80%;
+  margin-right: 190px;
+}
+.quis h3 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+footer {
+  background-color: #111;
+  color: white;
+  padding-bottom: 50px;
+  margin-top: 100px;
+}
+
+.top-banner {
+  background-color: #444;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-banner button {
+  background-color: white;
+  color: black;
+  border: none;
+  /* padding: 10px 20px; */
+  font-size: 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 200px;
+  margin-bottom: 30px;
+  margin-right: 100px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 10%;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section li {
+  margin-bottom: 10px;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.join-ride .newsletter {
+  display: flex;
+  border: 1px solid white;
+  border-radius: 25px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.join-ride input {
+  border: none;
+  padding: 10px;
+  flex: 1;
+  background: none;
+  color: white;
+  outline: none;
+}
+
+.join-ride button {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.join-ride label {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.join-ride input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.join-ride .social-icons {
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+.scroll-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: white;
+  color: black;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+  }
+
+  header ul {
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 0;
+  }
+
+  .sos {
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .about-section {
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 20px;
+  }
+
+  .about-section img {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .about-sec {
+    margin-left: 0;
+    max-width: 100%;
+  }
+
+  section {
+    height: auto;
+    padding: 40px 20px;
+    background-size: cover;
+    text-align: center;
+  }
+
+  .pap {
+    font-size: 40px;
+    margin-top: 50px;
+  }
+
+  .sap {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+
+  .section2 {
+    flex-direction: column;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .text-content,
+  .image-content {
+    width: 100%;
+  }
+
+  .two-bike {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bike {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .fors form {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .fors input,
+  .fors textarea {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  button {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .quis {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .quis hr {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  .top-banner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .top-banner button {
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-section {
+    margin-bottom: 30px;
+  }
+
+  .join-ride .newsletter {
+    flex-direction: column;
+  }
+
+  .join-ride button {
+    width: 100%;
+  }
+}
